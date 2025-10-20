@@ -17,14 +17,10 @@ To write a Python program that demonstrates class inheritance by creating a pare
 class Fish:
 
     def type(self):
-    
         print("fish")
-
 class Shark(Fish):
-
-    def type(self):
-    
-	    print("shark")
+   def type(self):
+    print("shark")
 
 fish = Fish()
 
